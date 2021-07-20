@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - freeCodeCamp - Tic Tac Toe </title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Rock+Salt'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1 class='text-center'>Tic Tac Toe</h1>
+<div class='info'></div>
+<div align='center' class='result'>
+  <div align='left' class='score-panel'>
+    <div class='top-score-panel'></div>
+    <div class='right-score-panel'></div>
+    <div class='score-info'>
+      <div>0</div>
+      <div>
+        <span class='glyphicon glyphicon-user'></span>
+        <div class='player-name'>
+          <input type='text' value='Player1'>
+          <span class='glyphicon glyphicon-pencil pull-right'></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div align='left' class='score-panel'>
+    <div class='top-score-panel'></div>
+    <div class='right-score-panel'></div>
+    <div class='score-info'>
+      <div>0</div>
+      <div>
+        <span class='glyphicon glyphicon-user'></span>
+        <div class='player-name'>
+          <input type='text' value='Player2'>
+          <span class='glyphicon glyphicon-pencil pull-right'></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div align='center' class='choose'>
+  <h2>
+    Would you like to be
+    <span>X</span>
+    or
+    <span>O</span>
+    ?
+  </h2>
+  <div class='choose-sign' data-sign='X'>
+    <div class='top-choose-sign'></div>
+    <div class='right-choose-sign'></div>
+    <div class='choose-area'>
+      <div class='choose-blackboard'>
+        <div>X</div>
+      </div>
+    </div>
+  </div>
+  <div class='choose-sign' data-sign='O'>
+    <div class='top-choose-sign'></div>
+    <div class='right-choose-sign'></div>
+    <div class='choose-area'>
+      <div class='choose-blackboard'>
+        <div>O</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div align='center' class='game'>
+  <div class='top-game'></div>
+  <div class='right-game'></div>
+  <div class='game-board'>
+    <div class='game-blackboard'>
+      <div class='game-row'>
+        <div class='game-cell' data-n='0'></div>
+        <div class='game-cell' data-n='1'></div>
+        <div class='game-cell' data-n='2'></div>
+      </div>
+      <div class='game-row'>
+        <div class='game-cell' data-n='3'></div>
+        <div class='game-cell' data-n='4'></div>
+        <div class='game-cell' data-n='5'></div>
+      </div>
+      <div class='game-row'>
+        <div class='game-cell' data-n='6'></div>
+        <div class='game-cell' data-n='7'></div>
+        <div class='game-cell' data-n='8'></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div align='center' class='game-mode' id='reset'>
+  <div>
+    <span class='glyphicon glyphicon-repeat'></span>
+    <span>Reset All</span>
+  </div>
+</div>
+<div align='center' class='game-mode'>
+  <div data-vs='cpu'>
+    <span class='glyphicon glyphicon-oil'></span>
+    <span>One Player</span>
+  </div>
+  <div data-vs='human'>
+    <span class='glyphicon glyphicon-user'></span>
+    <span>Two Player</span>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
