@@ -6,8 +6,8 @@
   "scope": "/pwa_js_tic_tac_toe_game/",
   "display": "browser",
   "start_url": "https://yakovlevds.github.io/pwa_js_tic_tac_toe_game/index.html",
-  "background_color": "transparent",
-  "theme_color": "transparent",
+  "background_color": "green",
+  "theme_color": "blue",
   "orientation": "any",
   "prefer_related_applications": "false",
   "icons": [
