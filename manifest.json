@@ -5,7 +5,7 @@
   "short_name": "Tic Tac Toe",
   "scope": "/pwa_js_tic_tac_toe_game/",
   "display": "browser",
-  "start_url": "https://yakovlevds.github.io/pwa_js_tic_tac_toe_game/",
+  "start_url": "https://yakovlevds.github.io/pwa_js_tic_tac_toe_game/index.html",
   "background_color": "transparent",
   "theme_color": "transparent",
   "orientation": "any",
@@ -16,7 +16,7 @@
       "sizes": "196x196",
       "type": "image/png",
       "purpose": "any maskable"
-    }
+    },
     {
       "src": "images/71x71.png",
       "type": "image/png",
