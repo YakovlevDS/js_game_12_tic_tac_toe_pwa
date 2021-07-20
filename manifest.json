@@ -4,7 +4,7 @@
   "name": "Tic Tac Toe Game",
   "short_name": "Tic Tac Toe",
   "scope": "/pwa_js_tic_tac_toe_game/",
-  "display": "browser",
+  "display": "standalone",
   "start_url": "https://yakovlevds.github.io/pwa_js_tic_tac_toe_game/index.html",
   "background_color": "green",
   "theme_color": "blue",
